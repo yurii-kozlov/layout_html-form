@@ -11,10 +11,10 @@ fieldset {
   margin: 20px 0;
 }
 
-.recommendation {
-  margin-top: 10px;
-}
-
 select {
   margin-bottom: 10px;
+}
+
+.recommendation {
+  margin-top: 10px;
 }
