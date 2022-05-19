@@ -1,6 +1,10 @@
 /* styles go here */
-input:last-child {
-  margin-bottom: 10px;
+.form-field {
+  margin: 0 0 10px;
+}
+
+.form-field:last-child {
+  margin: 0;
 }
 
 fieldset {
