@@ -50,21 +50,23 @@
           <label for="age">
             How old are you?
           </label>
-          <input type="number"
+          <input
+            type="number"
             id="age"
             name="age"
             required
             value="12"
             min="1"
             max="100"
-            >
+          >
         </div>
         
         <div class="form-field">
           <label for="dateOfBirth">
             Full date of birth:
           </label>
-          <input type="date"
+          <input
+            type="date"
             value="mm-dd-yyyy"
             id="dateOfBirth"
             name="dateOfBirth"
@@ -76,7 +78,8 @@
           <label for="checkbox">
             I accept the term of the agreement
           </label>
-          <input type="checkbox"
+          <input
+            type="checkbox"
             id="checkbox"
             name="checkbox"
             required
@@ -92,7 +95,8 @@
           <label for="email">
             E-mail
           </label>
-          <input type="email"
+          <input
+            type="email"
             id="email"
             name="email"
             required
@@ -104,7 +108,8 @@
           <label for="password">
             Password
           </label>
-          <input type="password"
+          <input
+            type="password"
             id="password"
             name="password"
             required
@@ -121,7 +126,8 @@
           Do you love cats?
           
           <label>
-            <input type="radio"
+            <input
+              type="radio"
               name="cats"
               value="y"
             >
@@ -142,20 +148,21 @@
             What is your favorite color?
           </label>
 
-          <input 
+          <input
             type="color"
             id="favcolor"
             name="favcolor"
             value="#ff0000"
-            required>
-            
+            required
+          >
         </div>
 
         <div class="form-field">
           <label for="time">
             What time do you go to bed?
           </label>
-          <input type="time"
+          <input
+            type="time"
             id="time"
             name="time"
             required
@@ -167,13 +174,15 @@
         <div class="form-field">
           <label for="brand">What are your favorite brand of cars?</label>
           
-          <select name="brand"
+          <select
+            name="carBrand"
             id="brand"
             required
-            multiple>
-            <option value="b">BMW</option>
-            <option value="a">Audi</option>
-            <option value="l">Lada</option>
+            multiple
+          >
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
           </select>
         </div>
 
@@ -181,9 +190,10 @@
           <label for="range">
             How do you rate our work?
           </label>
-          <input type="range" 
-            id="range" 
-            name="range" 
+          <input
+            type="range"
+            id="range"
+            name="range"
             required
             minlength="2"
             maxlength="15"
@@ -198,7 +208,7 @@
           <label for="comments">
             Comments:
           </label>
-          <textarea 
+          <textarea
             name="comments"
             id="comments"
             cols="20"
@@ -212,18 +222,18 @@
             Would you recommend us?
           </label>
           
-          <select class="recommendation"
+          <select
+            class="recommendation"
             name="recommend"
             id="recommend"
-            required>
-            <option value="Y">yes</option>
-            <option value="N">no</option>
+            required
+          >
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </div>
       </fieldset>
-    
     </form>
-
     <button type="submit">Submit</button>
   </body>
 </html>
