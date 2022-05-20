@@ -1,20 +1,8 @@
 /* styles go here */
-.form-field {
-  margin: 0 0 10px;
-}
-
-.form-field:last-child {
-  margin: 0;
-}
-
-fieldset {
-  margin: 20px 0;
-}
-
-select {
+.form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.recommendation {
-  margin-top: 10px;
+.section {
+  margin-bottom: 20px;
 }
